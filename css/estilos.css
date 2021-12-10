@@ -55,9 +55,9 @@ header {
     height: 100vh;
     background: #002fff;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(224, 70%, 25%, 0.459), hsla(234, 70%, 25%, 0.664)), url(/assets/img/portada.jpeg);
+    background: -webkit-linear-gradient(to right, hsla(224, 70%, 25%, 0.459), hsla(234, 70%, 25%, 0.664)), url(../img/portada.jpeg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(234, 70%, 25%, 0.459), hsla(234, 70%, 25%, 0.664)), url(/assets/img/portada.jpeg);
+    background: linear-gradient(to right, hsla(234, 70%, 25%, 0.459), hsla(234, 70%, 25%, 0.664)), url(../img/portada.jpeg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
