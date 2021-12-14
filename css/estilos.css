@@ -55,9 +55,9 @@ header {
     height: 100vh;
     background: #002fff;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(224, 70%, 25%, 0.459), hsla(234, 70%, 25%, 0.664)), url(../img/portada.jpeg);
+    background: -webkit-linear-gradient(to right, hsla(224, 70%, 25%, 0.459), hsla(234, 70%, 25%, 0.664)), url(../img/portada.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(234, 70%, 25%, 0.459), hsla(234, 70%, 25%, 0.664)), url(../img/portada.jpeg);
+    background: linear-gradient(to right, hsla(234, 70%, 25%, 0.459), hsla(234, 70%, 25%, 0.664)), url(../img/portada.jpg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -160,8 +160,6 @@ header {
 
 .card-inf p{
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .card-li {
@@ -186,6 +184,32 @@ header {
 .card-video {
     width: 560px;
     height: 315px;
+}
+
+.box-btn {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    display: flex;
+    background-color: #1c1a2d;
+    justify-content: space-around;
+}
+
+.btn-topics a {
+    color: #f7f9f9;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+.btn-dow a {
+    color: #f7f9f9;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
 }
 
 /*  PDF  */
