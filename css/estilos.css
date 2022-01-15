@@ -26,6 +26,21 @@ body {
     text-align: center;
 }
 
+.box-ilus {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ilus-1{
+    margin-bottom: 15px;
+}
+
+.ilus-2 {
+    width: 90%;
+    margin: auto;
+}
+
 /* HEADER */
 .box-menu {
     width: 100%;
@@ -297,6 +312,10 @@ footer p {
     /* MAIN > DESCRIPCION */
     .descripcion {
         flex-direction: column;
+    }
+
+    .ilus-1{
+        width: 90%;
     }
     
 }
