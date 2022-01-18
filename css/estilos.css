@@ -41,6 +41,15 @@ body {
     margin: auto;
 }
 
+.ilus-3 {
+    width: 90%;
+    margin: auto;
+}
+
+.toottxt {
+    color: #1c1a2d;
+}
+
 /* HEADER */
 .box-menu {
     width: 100%;
@@ -318,4 +327,8 @@ footer p {
         width: 90%;
     }
     
+    .ilus-3{
+        width: 90%;
+        margin: auto;
+    }
 }
